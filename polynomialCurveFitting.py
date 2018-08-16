@@ -3,8 +3,8 @@
 # The present code shows how to apply the concept of curve fitting through
 # a Polynomial of different degrees.
 #
-# In this case we are trying to fit the curve generated for the fucntion
-# 2*pi*x ,where "x" are values in the range [-1,1] random numbers under
+# In this case we are trying to fit the curve generated for the function
+# sin(2*pi*x) ,where "x" are values in the range [-1,1] random numbers under
 # a normal distribution.
 #
 # Author: Fernando Lopez-Velasco
@@ -16,7 +16,7 @@ import math as mt
 import matplotlib.pyplot as plt
 
 # Set the number of elements for the "x" vector
-N =  100
+N =  1000
 # Set the parameter of penalization
 penalization = 0.1
 
