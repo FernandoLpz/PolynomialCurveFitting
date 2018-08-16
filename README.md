@@ -5,6 +5,5 @@ In this example we are trying to fit the curve generate by the function sin(2*pi
 values generated randomly under a normal distribution.
 
 ## How to run
-
 ```
 $ python polynomialCurveFitting.py
