@@ -6,6 +6,6 @@ values generated randomly under a normal distribution.
 
 ## How to run
 
-´´´
+```
 $ python polynomialCurveFitting.py
 ´´´
