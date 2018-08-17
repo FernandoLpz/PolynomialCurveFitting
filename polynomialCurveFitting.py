@@ -85,4 +85,4 @@ for i in range(0,20,3):
     plt.plot(x,y_true,'ro')
     plt.plot(x,y_hat, 'b')
     plt.show()
-    #plt.savefig('polynomial'+ str(i+1) +'.png')
+    #splt.savefig('figures/polynomial'+ str(i+1) +'.png')
