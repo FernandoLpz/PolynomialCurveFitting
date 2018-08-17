@@ -70,7 +70,7 @@ def Error_Funcion_RMS(error_Least_Squares):
 x, y_true = Generate_data()
 
 # Try with different polynomial degrees
-for i in range(10):
+for i in range(0,20,3):
     y_hat, w = Polynomial(i+1, x)
     error_Least_Squares = Error_Function_Least_Squares(y_true, y_hat, w)
     error_RMS = Error_Funcion_RMS(error_Least_Squares)
@@ -85,3 +85,4 @@ for i in range(10):
     plt.plot(x,y_true,'ro')
     plt.plot(x,y_hat, 'b')
     plt.show()
+    #plt.savefig('polynomial'+ str(i+1) +'.png')
