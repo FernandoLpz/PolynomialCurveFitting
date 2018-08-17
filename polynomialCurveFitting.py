@@ -1,4 +1,4 @@
-# Example code for Polynomial Curve Fitting
+# Code example for Polynomial Curve Fitting
 #
 # The present code shows how to apply the concept of curve fitting through
 # a Polynomial of different degrees.
