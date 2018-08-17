@@ -84,5 +84,5 @@ for i in range(0,20,3):
     # Plot for every polynomial
     plt.plot(x,y_true,'ro')
     plt.plot(x,y_hat, 'b')
-    plt.show()
-    #splt.savefig('figures/polynomial'+ str(i+1) +'.png')
+    #plt.show()
+    plt.savefig('figures/polynomial'+ str(i+1) +'.png')
